@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); */
+
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url('../css/PermanentMarker-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #1f262a;
+
+}
+
+.magentabg {
+    background-color: #ff7fff;
+}
+
+.blacktext {
+    color: #1f262a;
+}
+
+.tooltipcolor {
+    --bs-tooltip-bg: #FFEA7F;
+    --bs-tooltip-color: #1f262a;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.navbuttons {
+    background-color: #ccffff;
+    color: #1f262a;
+}
+
+.buttoncontact {
+    background-color: #1f262a;
+    color: #FFEA7F;
+}
+
+.buttoncontact:hover {
+    background-color: #ff7fff;
+    color: #1f262a;
+}
+
+.buttonyellow {
+    background-color: #FFEA7F;
+    color: #1f262a;
+}
+
+.buttonyellow:hover {
+    background-color: #1f262a;
+    color: #FFEA7F;
+}
+
+.navbuttons:hover {
+    background-color: #1f262a;
+    color: #ccffff;
+}
+
+.yellowbg {
+    background-color: #FFEA7F;
+}
+
+.cyanbg {
+    background-color: #ccffff;
+}
+
+.yellowtext {
+    color: #FFEA7F;
+}
+
+.background-img {
+    background-image: url('../assets/bg5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+.accordionbg {
+    background-color: #ccffff;
+}
+
+.buttonbgyellow {
+   background-color: #FFEA7F;
+}
+
+.buttonbgmagenta {
+    background-color: #ff7fff;
+ }
+
+ .buttonbgcyan {
+    background-color: #ccffff;
+ }
+
+.cyantext {
+    color: #ccffff;
+}
+
+#carouselCat {
+    cursor: pointer;
+}

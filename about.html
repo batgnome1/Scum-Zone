@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SCUMZONE</title>
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/default.css">
+    <style>
+        .flex-grow {
+            flex-grow: 1;
+        }
+    </style>
+  </head>
+  <body class="d-flex flex-column background-img">
+    <a href="index.html" class="text-reset text-decoration-none"><h1 class="magentabg mb-0">S C U M Z O N E</h1></a>
+    <nav class="navbar navbar-expand-lg magentabg blacktext">
+      <div class="container-fluid ps-1 d-flex align-items-center">
+        <a class="navbar-brand tooltipcolor me-3" href="alert.html" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="meow" data-bs-custom-class="tooltipcolor">
+          <img src="assets/iconic.png" alt="cat alert" width="50" height="70">
+        </a>
+        <div class="d-flex gap-2">
+          <a href="index.html" class="btn btn-lg navbuttons text-decoration-none">HOME</a>
+          <a href="cataloglist.html" class="btn btn-lg navbuttons text-decoration-none">CATALOG LIST</a>
+          <a href="about.html" class="btn btn-lg navbuttons text-decoration-none">ABOUT</a>
+      </div>
+      
+      </div>
+    </nav>
+      <div class="container mt-5 flex-grow">
+        <div class="container-sm">
+        <div class="row">
+            <div class="col-12 col-lg-7">       
+            </div>
+        </div>
+        <div class="row yellowbg rounded-5 mb-5">
+            <div class="col-12 text-center">
+                <h2>ABOUT</h2>
+                <p>Scumzone is a passion project of a single mind - my own. There is no rhyme or reason to the direction or substance of the comics. I simply write.</p>  
+            </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2 pb-1">
+              <button class="btn btn-lg navbuttons text-decoration-none rounded-5" type="button" onclick="showEm()">Show Em!</button>
+            </div>
+            <div class="col-md-2 pb-1">
+              <button class="btn btn-lg navbuttons text-decoration-none rounded-5" type="button" onclick="hideEm()">Hide Em!</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion m-2" id="accordionRecs">
+            <div class="accordion-item yellowbg rounded-5">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed buttonbgyellow rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Comic Recommendations
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionRecs">
+                <div class="accordion-body">
+                  <p>Marvels</p>
+                  <p>Blankets</p>
+                  <p>Black Monday Murders</p>
+                  <p>Maus</p>
+                  <p>Persepolis</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item magentabg rounded-5">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed buttonbgmagenta rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Movie Recommendations
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionRecs">
+                <div class="accordion-body">
+                    <p>In The Mood For Love</p>
+                    <p>Furiosa</p>
+                    <p>Night of the Hunter</p>
+                    <p>Le Bonheur</p>
+                    <p>The Goonies</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item accordionbg rounded-5">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed buttonbgcyan rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  TV Show Recommendations
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionRecs">
+                <div class="accordion-body">
+                    <p>The X-Files</p>
+                    <p>Columbo</p>
+                    <p>The Expanse</p>
+                    <p>Camp Candy</p>
+                    <p>Northern Exposure</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container mb-5 flex-grow">
+      <div class="container-sm">
+        <div class="row yellowbg rounded-5 text-center">
+          <button class="btn btn-lg buttonyellow rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContact" aria-expanded="false" aria-controls="collapseContact">
+            Contact Me
+          </button>
+        <div class="collapse" id="collapseContact">
+        <form class="novalidate">
+        <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3">
+      <label for="exampleFormControlInput2" class="form-label">Subject</label>
+      <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="subject" required>
+        </div>
+        <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+      <button class="btn buttoncontact mb-2 rounded-5" type="submit">Send</button>
+        </div>
+        </form>
+        </div>
+        </div>
+      </div>
+    </div> 
+  
+      <footer class="magentabg text-center py-3">
+        <h2 class="magentabg mb-0">COPYRIGHT 2024 ANDREW MAYFIELD</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+            <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+          </svg>
+      </footer>
+      <script src="vendor/js/bootstrap.bundle.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+      </script>
+      <script>
+        function showEm()
+          {
+            let collapseBoi = document.querySelectorAll('#accordionRecs .collapse');
+            collapseBoi.forEach(
+                function(oneCollapse)
+                    {
+                      oneCollapse.classList.add('show');
+                    }
+                  );
+
+            let buttonBoi = document.querySelectorAll('.accordion-button');
+            buttonBoi.forEach(
+                    function(oneCollapse)
+                      {
+                        oneCollapse.classList.remove('collapsed');
+                      }
+            );
+
+          }
+          function hideEm()
+          {
+            let collapseBoi = document.querySelectorAll('#accordionRecs .collapse');
+            collapseBoi.forEach(
+                function(oneCollapse)
+                    {
+                      oneCollapse.classList.remove('show');
+                    }
+                  );
+
+            let buttonBoi = document.querySelectorAll('.accordion-button');
+            buttonBoi.forEach(
+                    function(oneCollapse)
+                      {
+                        oneCollapse.classList.add('collapsed');
+                      }
+            );
+
+          }
+      </script>
+  </body>
+</html>
